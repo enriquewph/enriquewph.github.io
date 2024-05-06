@@ -1,3 +1,10 @@
+- caption: Send me an Email
+  href: mailto:enriquewph@gmail.com
+  icon: entypo/email.svg
+
+- caption: Córdoba, Argentina
+  icon: entypo/location.svg
+
 - caption: github/enriquewph
   href: https://github.com/enriquewph
   icon: entypo/github.svg
@@ -5,3 +12,7 @@
 - caption: linkedin/enriquewph
   href: https://www.linkedin.com/in/enriquewph
   icon: entypo/linkedin.svg
+  
+- caption: instagram/enriquewph
+  href: https://www.instagram.com/enriquewph
+  icon: entypo/instagram.svg

@@ -18,7 +18,8 @@
     // Add the IDs of extensions you want installed when the container is created in the array below.
     "extensions": [
         "github.copilot",
-        "kargware.vscode-extension-jekyll-kw"
+        "kargware.vscode-extension-jekyll-kw",
+        "yzhang.markdown-all-in-one"
     ],
     "mounts": [
         "type=bind,source=${localWorkspaceFolder},target=/work",
