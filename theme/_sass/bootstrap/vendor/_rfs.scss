@@ -56,10 +56,10 @@ $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
 
 // Remove unit from $rfs-breakpoint for calculations
 @if $rfs-breakpoint-unit-cache == "px" {
-  $rfs-breakpoint: math.div($rfs-breakpoint, $rfs-breakpoint * 0 + 1);
+  $rfs-breakpoint: $rfs-breakpoint;
 }
 @else if $rfs-breakpoint-unit-cache == "rem" or $rfs-breakpoint-unit-cache == "em" {
-  $rfs-breakpoint: math.div($rfs-breakpoint, $rfs-breakpoint * 0 + math.div(1, $rfs-rem-value));
+  $rfs-breakpoint: $rfs-breakpoint * $rfs-rem-value;
 }
 
 // Responsive font-size mixin
