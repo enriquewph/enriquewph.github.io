@@ -17,7 +17,8 @@
     // "runArgs": ["-u", "vscode"],
     // Add the IDs of extensions you want installed when the container is created in the array below.
     "extensions": [
-        "github.copilot"
+        "github.copilot",
+        "kargware.vscode-extension-jekyll-kw"
     ],
     "mounts": [
         "type=bind,source=${localWorkspaceFolder},target=/work",
