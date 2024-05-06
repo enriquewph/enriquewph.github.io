@@ -72,3 +72,4 @@ defaults:
       layout: defaults/list
 
 
+exclude: ['.devcontainer', '.vscode']
