@@ -7,8 +7,8 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            Friday Theme            # Site title
-name:             Friday Theme            # Your name
+title:            Enrique's Blog            # Site title
+name:             Enrique Walter Philippeaux            # Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
@@ -23,6 +23,11 @@ include: ["_pages", "_portfolio"]
 sass:
   sass_dir: theme/_sass
   style: compressed
+
+plugins:
+#  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Turn the projects into a collection.
 collections:
