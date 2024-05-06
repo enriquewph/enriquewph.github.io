@@ -2,43 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build dev container",
-            "type": "shell",
-            "command": "docker build -t jekylldevcontainer .",
-            "problemMatcher": [],
-            "icon": {
-                "dark": "images/dark-build.svg",
-                "light": "images/light-build.svg"
-            }
-        },
-        {
             "label": "Serve",
             "type": "shell",
             "icon": {
                 "dark": "images/dark-run.svg",
                 "light": "images/light-run.svg"
             },
-            "group": "test",
-            "command": "docker run -it --rm -v .:/srv/jekyll:Z jekylldevcontainer"
-        },
-        {
-            "label": "Serve (trace)",
-            "type": "shell",
-            "icon": {
-                "dark": "images/dark-debug.svg",
-                "light": "images/light-debug.svg"
+            "group": {
+                "kind": "build",
+                "isDefault": true
             },
-            "command": "docker run -it --rm -v .:/srv/jekyll:Z jekylldevcontainer jekyll serve --trace",
+            "command": "bundle exec jekyll serve",
             "problemMatcher": []
-        },
-        {
-            "label": "Bash",
-            "type": "shell",
-            "icon": {
-                "dark": "images/dark-console.svg",
-                "light": "images/light-console.svg"
-            },
-            "command": "docker run -it --rm -v .:/srv/jekyll jekylldevcontainer bash"
         }
     ]
 }
