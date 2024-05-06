@@ -1,17 +1,44 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
-            "command": "rvm use 3.0.5; bundle exec jekyll serve",
+            "label": "Build dev container",
             "type": "shell",
-            "label": "Jekyll - Run Dev Server",
-            "options": {
-              "shell": {
-                "args": ["--login"]
-              }
+            "command": "docker build -t jekylldevcontainer .",
+            "problemMatcher": [],
+            "icon": {
+                "dark": "images/dark-build.svg",
+                "light": "images/light-build.svg"
+            }
+        },
+        {
+            "label": "Serve",
+            "type": "shell",
+            "icon": {
+                "dark": "images/dark-run.svg",
+                "light": "images/light-run.svg"
             },
-          },
+            "group": "test",
+            "command": "docker run -it --rm -v .:/srv/jekyll:Z jekylldevcontainer"
+        },
+        {
+            "label": "Serve (trace)",
+            "type": "shell",
+            "icon": {
+                "dark": "images/dark-debug.svg",
+                "light": "images/light-debug.svg"
+            },
+            "command": "docker run -it --rm -v .:/srv/jekyll:Z jekylldevcontainer jekyll serve --trace",
+            "problemMatcher": []
+        },
+        {
+            "label": "Bash",
+            "type": "shell",
+            "icon": {
+                "dark": "images/dark-console.svg",
+                "light": "images/light-console.svg"
+            },
+            "command": "docker run -it --rm -v .:/srv/jekyll jekylldevcontainer bash"
+        }
     ]
 }
