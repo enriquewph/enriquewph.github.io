@@ -1,0 +1,4 @@
+pillow-heif
+pillow
+exifread
+pyheif
