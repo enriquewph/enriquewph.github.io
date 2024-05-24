@@ -5,27 +5,29 @@ narrow: true
 title: About me
 ---
 
-Hello, I'm an Electronics Engineering student from Argentina. Currently on my 5th year of studies, I'm really passionate about electronics, programming, and technology in general. It's really hard to select my topics of interest, as I'm always looking for new things to learn and experiment with. I'm always looking for new projects to work on, and I'm always looking for new things to learn such as:
-- **Motorcycles**
-  - Owner of a 92' Honda CB250 Nighthawk
-- **Firmware development**
-  - ESP32
-  - STM32
-  - AVR
-  - PIC
-- **Software development**
-  - Docker
-  - Python
-  - C/C++
-- **3D printing / CAD design**
-- **PCB Design**
-    - KiCad
-    - Altium Designer
-- **Networking**
-- **Home automation**
+Bienvenido a mi electro-blog, meca-blog, cualquiercosa-blog. Soy un estudiante de 5º año (2024) en la ingeniería electrónica de la Universidad Tecnológica Nacional - Facultad Regional Córdoba (Argentina). Disfruto cierta afinidad por la electrónica desde pendejo, y busco compartir en este blog mis experiencias, proyectos y conocimientos. Si lees esto, espero que te guste lo que encuentres por acá. Si no, también. ¡Gracias por pasar! 🤖
 
-You'll find in this blog a collection of my projects, tutorials, and thoughts. I hope you find them useful, and if you have any questions or suggestions, feel free to contact me, or leave a comment in the posts.
+Concentrar mis intereses en una lista resulta muy complicado, por que he hecho varios proyectos en mi pasada por el técnico (ITS Villada) y por fuera, desde proyectos electrónicos, eléctricos, hasta nauticos y sobre motos...
 
-You will also find almost all my reports developed during my engineering studies. Have in mind that all the reports are in Spanish, as they were developed for my university courses, and all were co-authored with my classmates. Some things may be outdated, some others might be wrong, but I hope you find them useful.
+### ¿Qué encontrarás en este blog?
+- Proyectos de electrónica
+- Informes pasados de mi transcurso por la facultad
+    (tener en cuenta que no han sido realizados por mi solo, sino en grupo, y que probablemente contengan errores, que no han sido corregidos)
+- Proyectos de electricidad industrial
+- Náutica
+- Proyectos sobre mi moto (92' Honda NightHawk 250)
+- Y cualquier cosa que se me ocurra compartir
 
-On this year 2024, I'll be working on an R&D project for the development of "LORAION" satellite (aboard a different project [IONSAT](https://centrespatial-polytechnique.fr/ionsat/)) in the National Commission of Space Activities (CONAE) in Argentina. I'll be working on the development of the satellite in general, and the ground station software. I'm really excited about this project, and I hope to share some of the things I learn during this project in this blog.
+### ¿Qué tecnologías uso?
+- **Hardware**: Arduino, ESP8266, ESP32, Raspberry Pi, STM32, PIC, FPGA, etc.
+- **Software**: KiCad, Altium Designer, Keysight ADS, git, etc.
+- **Lenguajes de programación**: Python, C, C++, posiblemente Bend, Matlab, etc.
+
+### ¿Cómo puedo contactarte?
+En la parte izquierda del blog tienen los botones para ir a mis redes sociales, y para enviarme un Email.
+
+### ¿Puedo usar tus proyectos?
+Si, todo lo que suba es de libre acceso, no me hago responsable por mal uso de estos.
+
+### ¿Puedo colaborar con tu blog?
+Si, puedes contactarme por email.
